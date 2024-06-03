@@ -65,7 +65,7 @@ export default function VerticalTabs() {
                 sx={{ borderRight: 1, borderColor: 'divider' }}
             >
                 <Tab label="Refunds" {...a11yProps(0)} />
-                <Tab label="Cancellation" {...a11yProps(1)} />
+                <Tab label="Booking Recon Data" {...a11yProps(1)} />
                 {/* <Tab label="Item Three" {...a11yProps(2)} />
         <Tab label="Item Four" {...a11yProps(3)} />
         <Tab label="Item Five" {...a11yProps(4)} />
