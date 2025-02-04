@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'nodejs' // Use the installed Node.js version
+    }
+
     stages {
         stage('Clone Repository') {
             steps {
